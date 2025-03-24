@@ -2,7 +2,16 @@
 
 A small collection of CLI tools which can be used together with [llm](https://llm.datasette.io/en/stable/index.html) or [ollama](https://ollama.com).
 
-## chat
+## Setup
+
+```
+make
+brew install bash-completion@2
+```
+
+## Tools
+
+### chat
 
 `chat` is a simple wrapper for `ollama` which prettifies markdown output and allows to set a default model.
 
@@ -10,14 +19,11 @@ A small collection of CLI tools which can be used together with [llm](https://ll
 chat
 ```
 
-## ollama bash-completion
+### ollama bash-completion
 
-```
-gh gist view -f ollama b007a85abb073b0b0fa740ae3687f3c2 > ~/etc/bash_completion.d/ollama
-brew install bash-completion@2
-```
+Bash completion script for the main `ollama` sub commands and the installed models when running `ollama run`.
 
-## md
+### md
 
 Prettify streaming markdown from `llm` or `ollama` with `md`
 
