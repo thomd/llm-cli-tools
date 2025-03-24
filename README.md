@@ -1,6 +1,6 @@
 # LLM CLI Tools
 
-A small collection of CLI tools which can be used together with [llm](https://llm.datasette.io/en/stable/index.html) or [ollama](https://ollama.com).
+My collection of CLI tools which I use together with [llm](https://llm.datasette.io/en/stable/index.html) or [ollama](https://ollama.com).
 
 ## Setup
 
